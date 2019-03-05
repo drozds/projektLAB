@@ -1,0 +1,5 @@
+CC=g++
+CFLAGS=-I.
+
+main: main.cpp initfunc.cpp
+     $(CC) -o main main.cpp initfunc.cpp
